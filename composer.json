@@ -1,0 +1,34 @@
+{
+    "name": "nagasari/navigator",
+    "description": "Navigator manager service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inologi",
+            "email": "inologi.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Nagasari\\Navigator\\": "src/",
+            "Nagasari\\Navigator\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "tightenco/collect": "^5.5"
+    },
+    "require-dev": {
+        "kastengel/packdev": "^1.0",
+        "phpunit/phpunit": "^6.3",
+        "fzaninotto/faker": "^1.7",
+        "Mockery/Mockery": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nagasari\\Navigator\\Laravel\\NavigatorServiceProvider"
+            ]
+        }
+    }
+}
