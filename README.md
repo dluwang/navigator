@@ -4,7 +4,7 @@ This is a package that provide service to manage navigations
 
 #### **Version**
 
-    1.0.0
+    1.1.0
 
 #### **Instalation**
 
