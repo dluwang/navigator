@@ -16,10 +16,10 @@
         }
     },
     "require": {
-        "tightenco/collect": "^5.5"
+        "tightenco/collect": "5.5.*"
     },
     "require-dev": {
-        "kastengel/packdev": "^1.0",
+        "kastengel/packdev": "1.0.*",
         "phpunit/phpunit": "^6.3",
         "fzaninotto/faker": "^1.7",
         "Mockery/Mockery": "^1.0"
