@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff1e0b6e3afce6d2f4d5ec7fa4326f42",
+    "content-hash": "4c3a6a4c0adf54dc735e833aa2a3df0d",
     "packages": [
         {
             "name": "symfony/polyfill-mbstring",
@@ -1093,21 +1093,21 @@
         },
         {
             "name": "kastengel/packdev",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/kastengel/packdev.git",
-                "reference": "b21ce9615240e8d8480e52b21bae66cff75e701b"
+                "reference": "f459e40cf136885eca8b0a50cfff73a082c152e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/kastengel%2Fpackdev/repository/archive.zip?sha=b21ce9615240e8d8480e52b21bae66cff75e701b",
-                "reference": "b21ce9615240e8d8480e52b21bae66cff75e701b",
+                "url": "https://gitlab.com/api/v4/projects/kastengel%2Fpackdev/repository/archive.zip?sha=f459e40cf136885eca8b0a50cfff73a082c152e5",
+                "reference": "f459e40cf136885eca8b0a50cfff73a082c152e5",
                 "shasum": ""
             },
             "require": {
                 "laravel/dusk": "^4.0",
-                "laravel/laravel": "^5.7"
+                "laravel/laravel": "5.7.*"
             },
             "require-dev": {
                 "fzaninotto/faker": "^1.7",
@@ -1148,7 +1148,7 @@
                 }
             ],
             "description": "Laravel specific package foundation",
-            "time": "2019-01-06T20:04:26+00:00"
+            "time": "2019-01-08T17:52:09+00:00"
         },
         {
             "name": "laravel/dusk",
@@ -1213,16 +1213,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.7.19",
+            "version": "v5.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5c1d1ec7e8563ea31826fd5eb3f6791acf01160c"
+                "reference": "10cd20294b5668f90ba91996236834e71f7ff670"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5c1d1ec7e8563ea31826fd5eb3f6791acf01160c",
-                "reference": "5c1d1ec7e8563ea31826fd5eb3f6791acf01160c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/10cd20294b5668f90ba91996236834e71f7ff670",
+                "reference": "10cd20294b5668f90ba91996236834e71f7ff670",
                 "shasum": ""
             },
             "require": {
@@ -1296,7 +1296,7 @@
                 "moontoast/math": "^1.1",
                 "orchestra/testbench-core": "3.7.*",
                 "pda/pheanstalk": "^3.0",
-                "phpunit/phpunit": "^7.0",
+                "phpunit/phpunit": "^7.5",
                 "predis/predis": "^1.1.1",
                 "symfony/css-selector": "^4.1",
                 "symfony/dom-crawler": "^4.1",
@@ -1355,7 +1355,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-18T14:00:38+00:00"
+            "time": "2019-01-08T14:39:11+00:00"
         },
         {
             "name": "laravel/laravel",
