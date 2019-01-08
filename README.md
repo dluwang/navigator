@@ -1,4 +1,4 @@
-### **Navigation Service** 
+# **Navigation Service** 
 ---
 
 [![Build Status](https://travis-ci.org/nagasari/navigator.svg?branch=master)](https://travis-ci.org/nagasari/navigator)
@@ -7,7 +7,7 @@
 
 This is a package that provide service to manage navigations
 
-#### **Note** 
+## **Note** 
 ----
 
 | Laravel Version | Package Version |
@@ -16,14 +16,14 @@ This is a package that provide service to manage navigations
 | 5.6 | ^1.1 |
 | 5.7 | ^1.2 |
  
-#### **Installation**
+## **Installation**
 ---
 
 ```
 composer require nagasari/navigation
 ```
 
-#### **Usage**
+## **Usage**
 ---
 
 **Define Navigation**
@@ -136,7 +136,7 @@ $navigator->navigations('parent-id');
 $navigator->navigation('navigation-id')
 ```
 
-#### **Integration**
+## **Integration**
 ---
 
 Currently, this package only integrated with **laravel framework**. You can register your defined navigation in you app service provider at the boot method. This integration add a caching mechanism when building navigation
@@ -152,7 +152,7 @@ public function boot() {
 }
 ```
 
-#### **Tests**
+## **Tests**
 ---
 
 To run test, run this following command
