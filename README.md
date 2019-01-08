@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/nagasari/navigator.svg?branch=master)](https://travis-ci.org/nagasari/navigator)
 
 ### **Navigation**
 
