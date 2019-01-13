@@ -1,7 +1,7 @@
 # **Navigation Service** 
 
-[![Build Status](https://travis-ci.org/nagasari/navigator.svg?branch=master)](https://travis-ci.org/nagasari/navigator)
-[![Latest Stable Version](https://poser.pugx.org/nagasari/navigator/v/stable)](https://packagist.org/packages/nagasari/navigator)
+[![Build Status](https://travis-ci.org/dluwang/navigator.svg?branch=master)](https://travis-ci.org/dluwang/navigator)
+[![Latest Stable Version](https://poser.pugx.org/dluwang/navigator/v/stable)](https://packagist.org/packages/dluwang/navigator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is a package that provide service to manage navigations
@@ -17,14 +17,14 @@ This is a package that provide service to manage navigations
 ## **Installation**
 
 ```
-composer require nagasari/navigation
+composer require dluwang/navigation
 ```
 
 ## **Usage**
 
 **Define Navigation**
 
-`Nagasari/Navigator/Navigation` is a class to define your navigation. The `__construct` method has two mandatory arguments and four optional arguments
+`Dluwang/Navigator/Navigation` is a class to define your navigation. The `__construct` method has two mandatory arguments and four optional arguments
 
 ```php
 public function __construct($id, $url, $order = 1, $parent = null, array $attributes = [], array $childs = [])
@@ -78,7 +78,7 @@ $navigation->child('navigation-id-wanted')
 
 **Define Navigator**
 
-`Nagasari/Navigator/BaseNavigator` is a class that act as the repository of Navigations. All Navigator implementation should implements `Nagasari/Navigator/Navigator` interface.
+`Dluwang/Navigator/BaseNavigator` is a class that act as the repository of Navigations. All Navigator implementation should implements `Dluwang/Navigator/Navigator` interface.
 
 ```php
 $navigator = new BaseNavigator()

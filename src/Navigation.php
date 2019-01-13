@@ -1,6 +1,6 @@
 <?php
 
-namespace Nagasari\Navigator;
+namespace Dluwang\Navigator;
 
 use JsonSerializable;
 use Illuminate\Support\Collection;
