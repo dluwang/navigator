@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dluwang/navigator.svg?branch=master)](https://travis-ci.org/dluwang/navigator)
 [![Latest Stable Version](https://poser.pugx.org/dluwang/navigator/v/stable)](https://packagist.org/packages/dluwang/navigator)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://poser.pugx.org/dluwang/navigator/license)](https://packagist.org/packages/dluwang/navigator)
 
 This is a package that provide service to manage navigations
 
