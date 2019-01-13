@@ -1,9 +1,9 @@
 <?php
 
-namespace Nagasari\Navigator\Tests\Unit;
+namespace Dluwang\Navigator\Tests\Unit;
 
-use Nagasari\Navigator\Navigation;
-use Nagasari\Navigator\BaseNavigator;
+use Dluwang\Navigator\Navigation;
+use Dluwang\Navigator\BaseNavigator;
 use Kastengel\Packdev\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection;

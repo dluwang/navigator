@@ -1,9 +1,9 @@
 <?php
 
-namespace Nagasari\Navigator\Laravel;
+namespace Dluwang\Navigator\Laravel;
 
-use Nagasari\Navigator\Navigator as Contract;
-use Nagasari\Navigator\BaseNavigator;
+use Dluwang\Navigator\Navigator as Contract;
+use Dluwang\Navigator\BaseNavigator;
 use Illuminate\Contracts\Cache\Repository as Cache;
 
 class Navigator extends BaseNavigator implements Contract
