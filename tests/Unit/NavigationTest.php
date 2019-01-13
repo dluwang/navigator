@@ -2,7 +2,7 @@
 
 namespace Kastengel\Navigator\Tests\Unit;
 
-use Nagasari\Navigator\Navigation;
+use Dluwang\Navigator\Navigation;
 use Kastengel\Packdev\Tests\TestCase;
 use Illuminate\Support\Collection;
 use Illuminate\Foundation\Testing\RefreshDatabase;

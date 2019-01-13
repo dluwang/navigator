@@ -1,11 +1,11 @@
 <?php
 
-namespace Nagasari\Navigator\Tests\Feature;
+namespace Dluwang\Navigator\Tests\Feature;
 
 use Kastengel\Packdev\Tests\TestCase;
-use Nagasari\Navigator\Laravel\NavigatorServiceProvider;
-use Nagasari\Navigator\Laravel\Navigator as LNavigator;
-use Nagasari\Navigator\Navigator;
+use Dluwang\Navigator\Laravel\NavigatorServiceProvider;
+use Dluwang\Navigator\Laravel\Navigator as LNavigator;
+use Dluwang\Navigator\Navigator;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class NavigatorServiceProviderTest extends TestCase

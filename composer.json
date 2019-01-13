@@ -1,5 +1,5 @@
 {
-    "name": "nagasari/navigator",
+    "name": "dluwang/navigator",
     "description": "Navigator manager service",
     "license": "MIT",
     "authors": [
@@ -11,8 +11,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Nagasari\\Navigator\\": "src/",
-            "Nagasari\\Navigator\\Tests\\": "tests/"
+            "Dluwang\\Navigator\\": "src/",
+            "Dluwang\\Navigator\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nagasari\\Navigator\\Laravel\\NavigatorServiceProvider"
+                "Dluwang\\Navigator\\Laravel\\NavigatorServiceProvider"
             ]
         }
     }

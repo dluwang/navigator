@@ -1,10 +1,10 @@
 <?php
 
-namespace Nagasari\Navigator\Tests\Unit;
+namespace Dluwang\Navigator\Tests\Unit;
 
 use Mockery;
-use Nagasari\Navigator\Navigation;
-use Nagasari\Navigator\Laravel\Navigator;
+use Dluwang\Navigator\Navigation;
+use Dluwang\Navigator\Laravel\Navigator;
 use Kastengel\Packdev\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection;

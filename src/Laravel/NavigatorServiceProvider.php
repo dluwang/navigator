@@ -1,10 +1,10 @@
 <?php
 
-namespace Nagasari\Navigator\Laravel;
+namespace Dluwang\Navigator\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Nagasari\Navigator\Navigator;
-use Nagasari\Navigator\Laravel\Navigator as LNavigator;
+use Dluwang\Navigator\Navigator;
+use Dluwang\Navigator\Laravel\Navigator as LNavigator;
 
 class NavigatorServiceProvider extends ServiceProvider
 {

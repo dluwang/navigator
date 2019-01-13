@@ -1,6 +1,6 @@
 <?php
 
-namespace Nagasari\Navigator;
+namespace Dluwang\Navigator;
 
 use Illuminate\Support\Collection;
 
