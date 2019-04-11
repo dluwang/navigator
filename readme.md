@@ -13,6 +13,7 @@ This is a package that provide service to manage navigations
 | 5.5 | 1.0.* |
 | 5.6 | 1.1.* |
 | 5.7 | 1.2.* |
+| 5.8 | 1.3.* |
  
 ## **Installation**
 
