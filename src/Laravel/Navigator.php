@@ -33,7 +33,7 @@ class Navigator extends BaseNavigator implements Contract
      *
      * @return Navigation|null
      */
-    public function navigation($id)
+    public function navigation($id): ?\Dluwang\Navigator\Navigation
     {
         $key = md5('nav-' . $id);
 

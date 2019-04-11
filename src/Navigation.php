@@ -64,7 +64,7 @@ class Navigation implements JsonSerializable
      *
      * @return self
      */
-    public function registerChild($navigation)
+    public function registerChild($navigation): Navigation
     {
         if((is_array($navigation)) || ($navigation instanceof Collection)) {
             foreach ($navigation as $value) {
@@ -86,7 +86,7 @@ class Navigation implements JsonSerializable
      *
      * @return Navigation | null
      */
-    public function child($id)
+    public function child($id): ?Navigation
     {
         return $this->childs->first(function($value, $key) use ($id){
             return $value->id == $id;
@@ -96,9 +96,9 @@ class Navigation implements JsonSerializable
     /**
      * Retrieve all childs
      *
-     * @return array
+     * @return Collection
      */
-    public function childs()
+    public function childs(): Collection
     {
         return $this->childs;
     }
@@ -109,7 +109,7 @@ class Navigation implements JsonSerializable
      * @param  int  $options
      * @return string
      */
-    public function toJson($options = 0)
+    public function toJson($options = 0): string
     {
         return json_encode($this->jsonSerialize(), $options);
     }
@@ -119,7 +119,8 @@ class Navigation implements JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize() {
+    public function jsonSerialize(): array
+    {
         return [
             'id' => $this->id,
             'url' => $this->url,
@@ -134,7 +135,7 @@ class Navigation implements JsonSerializable
      *
      * @return string
      */
-    public function __toString()
+    public function __toString(): string
     {
         return $this->toJson();
     }

@@ -27,7 +27,7 @@ class BaseNavigator implements Navigator
      * @param  array|Navigation     $navigation
      * @return self
      */
-    public function register($navigation)
+    public function register($navigation): Navigator
     {
         if((is_array($navigation)) || ($navigation instanceof Collection)) {
             foreach ($navigation as $value) {
@@ -49,7 +49,7 @@ class BaseNavigator implements Navigator
      *
      * @return Navigation|null
      */
-    public function navigation($id)
+    public function navigation($id): ?Navigation
     {
         $navigation = $this->navigations->first(function($value) use ($id){
             return $value->id == $id;
@@ -67,7 +67,7 @@ class BaseNavigator implements Navigator
      *
      * @return Collection
      */
-    public function navigations($parent = null)
+    public function navigations($parent = null): Collection
     {
         $navigations = collect([]);
         $raw = $this->raw($parent);
@@ -86,7 +86,7 @@ class BaseNavigator implements Navigator
      *
      * @return Collection
      */
-    public function raw($parent = null)
+    public function raw($parent = null): Collection
     {
         return $this->navigations->filter(function($value) use ($parent){
             return $value->parent == $parent;
@@ -101,7 +101,7 @@ class BaseNavigator implements Navigator
      *
      * @return Navigation
      */
-    protected function build(Navigation $navigation, Navigation $parent = null)
+    protected function build(Navigation $navigation, Navigation $parent = null): Navigation
     {
         $accruedChilds = $navigation->childs;
         $deferredChilds = $this->raw($navigation->id);
